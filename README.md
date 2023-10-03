@@ -1,5 +1,5 @@
 # BINF-2111
-Milana Serkin
 Fall 2023
-BS in Biology and BA in Computer Science
-Senior
+My name is Milana Serkin.
+I am majoring in Biology and Computer Science.
+I am a senior.
