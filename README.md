@@ -1,2 +1,5 @@
 # BINF-2111
-Materials from the course BINF 2111. Includes bash and it's commands.
+Milana Serkin
+Fall 2023
+BS in Biology and BA in Computer Science
+Senior
