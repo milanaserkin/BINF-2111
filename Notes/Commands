@@ -1,0 +1,110 @@
+Command: echo
+● Meaning: Print text to a location
+○ Using > file after the command will put the text in the file
+○ Using >> file after the command will append the text to the end of the file
+● Basic Usage:
+○ echo [text]
+● Examples:
+○ echo "hello"
+Print hello to the terminal
+○ echo "hello world" > file.txt
+Print hello world to file.txt
+○ echo "hello student" >> file.txt
+Append hello student to the end of file.txt
+Command: mkdir
+● Meaning: Create new directory
+● Basic Usage:
+○ mkdir [folder name]
+● Examples:
+○ mkdir Midterm
+Makes a directory in the current directory called Midterm
+○ mkdir Desktop/BINF2111
+Makes a directory in Desktop called BINF2111
+Command: cd
+● Meaning: Change directory
+● Basic Usage:
+○ cd [directory]
+● Examples:
+○ cd Desktop
+Move into the Desktop directory
+○ cd ../
+Move into one directory up from the current directory
+Command: touch
+● Meaning: Create new file with no contents
+● Basic Usage:
+○ touch [file name]
+● Examples:
+○ touch file.txt
+Create an empty file called file.txt
+Command: more
+● Meaning: View file one screen at a time
+● Basic Usage:
+○ more [file name]
+● Examples:
+○ more file.txt
+View file.txt one screen at a time
+Command: cat
+● Meaning: Print full contents of file
+● Basic Usage:
+○ cat [file name]
+● Examples:
+○ cat file.txt
+Prints the contents of file.txt
+○ cat > file1.txt
+Create a new empty file called file1.txt
+Command: mv
+● Meaning: Move file to a different location OR rename file/folder
+● Basic Usage:
+○ mv [file] [location]
+○ mv [old file name] [new file name]
+● Examples:
+○ mv file.txt ~/Desktop
+Move file.txt to the Desktop
+○ mv file.txt file1.txt
+Rename file.txt to file1.txt
+Command: pwd
+● Meaning: Print current location (working directory)
+● Basic Usage:
+○ pwd
+● Examples:
+○ pwd
+Print current location
+Command: wc
+● Meaning: Count the number of lines/words/bytes in a file
+○ Default (no options) prints out:
+line count word count byte count file name
+● Options:
+○ -c print the byte count
+○ -l print the line count
+○ -m print the character count
+○ -w print the word count
+● Basic Usage:
+○ wc [options] [file name]
+● Examples:
+○ wc file.txt
+Print out the line count, word count, and byte count of file.txt
+○ wc -l file.txt
+Print out the line count of file.txt
+Command: rm
+● Meaning: Remove a file or a directory/everything in it
+○ NOTE: Files/directories are deleted permanently when using this command. Be
+very careful to not delete anything important!
+● Options:
+○ -r Remove recursively, remove the directory and everything in it
+● Basic Usage:
+○ rm [file name]
+○ rm -r [directory name]
+● Examples:
+○ rm file.txt
+Remove file.txt
+○ rm -r Lab1
+Remove the Lab1 directory and everything in it
+Command: cp
+● Meaning: Copy a file to a destination
+● Basic Usage:
+○ cp [file name] [location]
+● Examples:
+○ cp ~/Desktop/file.txt ./
+Copy file.txt that is located on the Desktop to the current directory
+○ cp ~/Downloads/* ~/Desktop
+Copy everything in the Downloads folder to the Desktop
